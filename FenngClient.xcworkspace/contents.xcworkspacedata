@@ -5,6 +5,9 @@
       location = "group:FenngClient.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:FenngKit/FenngKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

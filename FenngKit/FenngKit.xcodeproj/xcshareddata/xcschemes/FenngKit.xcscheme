@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E917D742151E2EB00D8719C"
-               BuildableName = "FenngClient.app"
-               BlueprintName = "FenngClient"
-               ReferencedContainer = "container:FenngClient.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E917DCE2151EF6B00D8719C"
                BuildableName = "FenngKit.framework"
                BlueprintName = "FenngKit"
-               ReferencedContainer = "container:FenngKit/FenngKit.xcodeproj">
+               ReferencedContainer = "container:FenngKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E917D8C2151E2ED00D8719C"
-               BuildableName = "FenngClientTests.xctest"
-               BlueprintName = "FenngClientTests"
-               ReferencedContainer = "container:FenngClient.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E917D742151E2EB00D8719C"
-            BuildableName = "FenngClient.app"
-            BlueprintName = "FenngClient"
-            ReferencedContainer = "container:FenngClient.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -75,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E917D742151E2EB00D8719C"
-            BuildableName = "FenngClient.app"
-            BlueprintName = "FenngClient"
-            ReferencedContainer = "container:FenngClient.xcodeproj">
+            BlueprintIdentifier = "5E917DCE2151EF6B00D8719C"
+            BuildableName = "FenngKit.framework"
+            BlueprintName = "FenngKit"
+            ReferencedContainer = "container:FenngKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E917D742151E2EB00D8719C"
-            BuildableName = "FenngClient.app"
-            BlueprintName = "FenngClient"
-            ReferencedContainer = "container:FenngClient.xcodeproj">
+            BlueprintIdentifier = "5E917DCE2151EF6B00D8719C"
+            BuildableName = "FenngKit.framework"
+            BlueprintName = "FenngKit"
+            ReferencedContainer = "container:FenngKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
