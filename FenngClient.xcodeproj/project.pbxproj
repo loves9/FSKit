@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13542742DC7896EB11E1CFA7 /* Pods_FenngClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DCC8792D448AFEC5144011 /* Pods_FenngClient.framework */; };
+		5E917D7A2151E2EB00D8719C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D792151E2EB00D8719C /* AppDelegate.m */; };
+		5E917D7D2151E2EB00D8719C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D7C2151E2EB00D8719C /* ViewController.m */; };
+		5E917D802151E2EB00D8719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D7E2151E2EB00D8719C /* Main.storyboard */; };
+		5E917D822151E2ED00D8719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D812151E2ED00D8719C /* Assets.xcassets */; };
+		5E917D852151E2ED00D8719C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D832151E2ED00D8719C /* LaunchScreen.storyboard */; };
+		5E917D882151E2ED00D8719C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D872151E2ED00D8719C /* main.m */; };
+		5E917D922151E2ED00D8719C /* FenngClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D912151E2ED00D8719C /* FenngClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E917D8E2151E2ED00D8719C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E917D6D2151E2EB00D8719C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E917D742151E2EB00D8719C;
+			remoteInfo = FenngClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E917DAD2151E57500D8719C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D6BC4414FDE1739E92E8902 /* Pods-FenngClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenngClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient.debug.xcconfig"; sourceTree = "<group>"; };
+		5E917D752151E2EB00D8719C /* FenngClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenngClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E917D782151E2EB00D8719C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E917D792151E2EB00D8719C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E917D7B2151E2EB00D8719C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E917D7C2151E2EB00D8719C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E917D7F2151E2EB00D8719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E917D812151E2ED00D8719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E917D842151E2ED00D8719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E917D862151E2ED00D8719C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E917D872151E2ED00D8719C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E917D8D2151E2ED00D8719C /* FenngClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenngClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E917D912151E2ED00D8719C /* FenngClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FenngClientTests.m; sourceTree = "<group>"; };
+		5E917D932151E2ED00D8719C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A31A4D0A131B48A650D831 /* Pods-FenngClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenngClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient.release.xcconfig"; sourceTree = "<group>"; };
+		A5DCC8792D448AFEC5144011 /* Pods_FenngClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenngClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E917D722151E2EB00D8719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13542742DC7896EB11E1CFA7 /* Pods_FenngClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917D8A2151E2ED00D8719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E917D6C2151E2EB00D8719C = {
+			isa = PBXGroup;
+			children = (
+				5E917D772151E2EB00D8719C /* FenngClient */,
+				5E917D902151E2ED00D8719C /* FenngClientTests */,
+				5E917D762151E2EB00D8719C /* Products */,
+				8E4641C7C893AE3C9EF9D6DC /* Pods */,
+				89619202E049618AAEB3ECE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E917D762151E2EB00D8719C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E917D752151E2EB00D8719C /* FenngClient.app */,
+				5E917D8D2151E2ED00D8719C /* FenngClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E917D772151E2EB00D8719C /* FenngClient */ = {
+			isa = PBXGroup;
+			children = (
+				5E917D782151E2EB00D8719C /* AppDelegate.h */,
+				5E917D792151E2EB00D8719C /* AppDelegate.m */,
+				5E917D7B2151E2EB00D8719C /* ViewController.h */,
+				5E917D7C2151E2EB00D8719C /* ViewController.m */,
+				5E917D7E2151E2EB00D8719C /* Main.storyboard */,
+				5E917D812151E2ED00D8719C /* Assets.xcassets */,
+				5E917D832151E2ED00D8719C /* LaunchScreen.storyboard */,
+				5E917D862151E2ED00D8719C /* Info.plist */,
+				5E917D872151E2ED00D8719C /* main.m */,
+			);
+			path = FenngClient;
+			sourceTree = "<group>";
+		};
+		5E917D902151E2ED00D8719C /* FenngClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E917D912151E2ED00D8719C /* FenngClientTests.m */,
+				5E917D932151E2ED00D8719C /* Info.plist */,
+			);
+			path = FenngClientTests;
+			sourceTree = "<group>";
+		};
+		89619202E049618AAEB3ECE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DCC8792D448AFEC5144011 /* Pods_FenngClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4641C7C893AE3C9EF9D6DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D6BC4414FDE1739E92E8902 /* Pods-FenngClient.debug.xcconfig */,
+				77A31A4D0A131B48A650D831 /* Pods-FenngClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E917D742151E2EB00D8719C /* FenngClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E917D962151E2ED00D8719C /* Build configuration list for PBXNativeTarget "FenngClient" */;
+			buildPhases = (
+				41D99D2E917D159D853203D3 /* [CP] Check Pods Manifest.lock */,
+				5E917D712151E2EB00D8719C /* Sources */,
+				5E917D722151E2EB00D8719C /* Frameworks */,
+				5E917D732151E2EB00D8719C /* Resources */,
+				516A8E738CA5888CA1D41A91 /* [CP] Embed Pods Frameworks */,
+				5E917DAD2151E57500D8719C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FenngClient;
+			productName = FenngClient;
+			productReference = 5E917D752151E2EB00D8719C /* FenngClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E917D8C2151E2ED00D8719C /* FenngClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E917D992151E2ED00D8719C /* Build configuration list for PBXNativeTarget "FenngClientTests" */;
+			buildPhases = (
+				5E917D892151E2ED00D8719C /* Sources */,
+				5E917D8A2151E2ED00D8719C /* Frameworks */,
+				5E917D8B2151E2ED00D8719C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E917D8F2151E2ED00D8719C /* PBXTargetDependency */,
+			);
+			name = FenngClientTests;
+			productName = FenngClientTests;
+			productReference = 5E917D8D2151E2ED00D8719C /* FenngClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E917D6D2151E2EB00D8719C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = iFeng;
+				TargetAttributes = {
+					5E917D742151E2EB00D8719C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5E917D8C2151E2ED00D8719C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5E917D742151E2EB00D8719C;
+					};
+				};
+			};
+			buildConfigurationList = 5E917D702151E2EB00D8719C /* Build configuration list for PBXProject "FenngClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E917D6C2151E2EB00D8719C;
+			productRefGroup = 5E917D762151E2EB00D8719C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E917D742151E2EB00D8719C /* FenngClient */,
+				5E917D8C2151E2ED00D8719C /* FenngClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E917D732151E2EB00D8719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917D852151E2ED00D8719C /* LaunchScreen.storyboard in Resources */,
+				5E917D822151E2ED00D8719C /* Assets.xcassets in Resources */,
+				5E917D802151E2EB00D8719C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917D8B2151E2ED00D8719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41D99D2E917D159D853203D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenngClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516A8E738CA5888CA1D41A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E917D712151E2EB00D8719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917D7D2151E2EB00D8719C /* ViewController.m in Sources */,
+				5E917D882151E2ED00D8719C /* main.m in Sources */,
+				5E917D7A2151E2EB00D8719C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917D892151E2ED00D8719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917D922151E2ED00D8719C /* FenngClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E917D8F2151E2ED00D8719C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E917D742151E2EB00D8719C /* FenngClient */;
+			targetProxy = 5E917D8E2151E2ED00D8719C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E917D7E2151E2EB00D8719C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E917D7F2151E2EB00D8719C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E917D832151E2ED00D8719C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E917D842151E2ED00D8719C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E917D942151E2ED00D8719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E917D952151E2ED00D8719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E917D972151E2ED00D8719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6BC4414FDE1739E92E8902 /* Pods-FenngClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXDK3TW596;
+				INFOPLIST_FILE = FenngClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenng.FenngClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E917D982151E2ED00D8719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A31A4D0A131B48A650D831 /* Pods-FenngClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXDK3TW596;
+				INFOPLIST_FILE = FenngClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenng.FenngClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E917D9A2151E2ED00D8719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXDK3TW596;
+				INFOPLIST_FILE = FenngClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenng.FenngClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenngClient.app/FenngClient";
+			};
+			name = Debug;
+		};
+		5E917D9B2151E2ED00D8719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXDK3TW596;
+				INFOPLIST_FILE = FenngClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenng.FenngClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FenngClient.app/FenngClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E917D702151E2EB00D8719C /* Build configuration list for PBXProject "FenngClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917D942151E2ED00D8719C /* Debug */,
+				5E917D952151E2ED00D8719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E917D962151E2ED00D8719C /* Build configuration list for PBXNativeTarget "FenngClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917D972151E2ED00D8719C /* Debug */,
+				5E917D982151E2ED00D8719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E917D992151E2ED00D8719C /* Build configuration list for PBXNativeTarget "FenngClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917D9A2151E2ED00D8719C /* Debug */,
+				5E917D9B2151E2ED00D8719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E917D6D2151E2EB00D8719C /* Project object */;
+}
