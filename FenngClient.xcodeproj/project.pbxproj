@@ -81,6 +81,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E4B2CB521533D57003B6118 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E4B2CB921534CE5003B6118 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5E4B2CB921534CE5003B6118 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5E917D6C2151E2EB00D8719C = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +119,7 @@
 		5E917D772151E2EB00D8719C /* FenngClient */ = {
 			isa = PBXGroup;
 			children = (
+				5E4B2CB521533D57003B6118 /* Classes */,
 				5E917D782151E2EB00D8719C /* AppDelegate.h */,
 				5E917D792151E2EB00D8719C /* AppDelegate.m */,
 				5E917D7B2151E2EB00D8719C /* ViewController.h */,

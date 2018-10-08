@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    FSTabBarViewController * tabBar = [[FSTabBarViewController alloc] init];
+    
+    self.window.rootViewController = tabBar;
+    
     return YES;
 }
 
