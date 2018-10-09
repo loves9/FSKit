@@ -16,8 +16,8 @@
 - (void)setBlock:(JMWhenTappedBlock)block forKey:(void *)blockKey;
 
 - (UITapGestureRecognizer*)addTapGestureRecognizerWithTaps:(NSUInteger) taps touches:(NSUInteger) touches selector:(SEL) selector;
-- (void) addRequirementToSingleTapsRecognizer:(UIGestureRecognizer*) recognizer;
-- (void) addRequiredToDoubleTapsRecognizer:(UIGestureRecognizer*) recognizer;
+- (void)addRequirementToSingleTapsRecognizer:(UIGestureRecognizer*) recognizer;
+- (void)addRequiredToDoubleTapsRecognizer:(UIGestureRecognizer*) recognizer;
 
 @end
 
@@ -111,7 +111,7 @@ static char kWhenTouchedUpBlockKey;
     return tapGesture;
 }
 
-- (void) addRequirementToSingleTapsRecognizer:(UIGestureRecognizer*) recognizer {
+- (void)addRequirementToSingleTapsRecognizer:(UIGestureRecognizer*) recognizer {
     for (UIGestureRecognizer* gesture in [self gestureRecognizers]) {
         if ([gesture isKindOfClass:[UITapGestureRecognizer class]]) {
             UITapGestureRecognizer* tapGesture = (UITapGestureRecognizer*) gesture;
@@ -122,7 +122,7 @@ static char kWhenTouchedUpBlockKey;
     }
 }
 
-- (void) addRequiredToDoubleTapsRecognizer:(UIGestureRecognizer*) recognizer {
+- (void)addRequiredToDoubleTapsRecognizer:(UIGestureRecognizer*) recognizer {
     for (UIGestureRecognizer* gesture in [self gestureRecognizers]) {
         if ([gesture isKindOfClass:[UITapGestureRecognizer class]]) {
             UITapGestureRecognizer* tapGesture = (UITapGestureRecognizer*) gesture;

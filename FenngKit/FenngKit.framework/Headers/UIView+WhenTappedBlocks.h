@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^JMWhenTappedBlock)();
+typedef void (^JMWhenTappedBlock)(void);
 
 @interface UIView (JMWhenTappedBlocks) <UIGestureRecognizerDelegate>
 

@@ -19,7 +19,12 @@ FOUNDATION_EXPORT const unsigned char FenngKitVersionString[];
 
 // Category
 #import "NSString+Extend.h"
-
+#import "UIView+Size.h"
+#import "UIColor+Extend.h"
+#import "UIImage+animatedGIF.h"
+#import "UIImage+Extend.h"
+#import "UIView+Gesture.h"
+#import "UIView+WhenTappedBlocks.h"
 
 
 // FenngUI
