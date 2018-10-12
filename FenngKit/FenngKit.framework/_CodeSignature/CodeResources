@@ -30,7 +30,35 @@
 		</data>
 		<key>Headers/FenngKit.h</key>
 		<data>
-		oBRBW8m/nUQV7tpGs9fvBGsGW18=
+		N5maNVRZSr5XPHpUYaa9wtCGjIo=
+		</data>
+		<key>Headers/NSString+Extend.h</key>
+		<data>
+		AFcnIPnfUwd1MRqsf+yzbjlrTGM=
+		</data>
+		<key>Headers/UIColor+Extend.h</key>
+		<data>
+		bbxmbW24iKVmY+rnEiD9VjmErpU=
+		</data>
+		<key>Headers/UIImage+Extend.h</key>
+		<data>
+		Ft5gdcrJ/jCuWTpI2kaOdF5KFFo=
+		</data>
+		<key>Headers/UIImage+animatedGIF.h</key>
+		<data>
+		RaJedlknpUScmckVxETTMkUbI+E=
+		</data>
+		<key>Headers/UIView+Gesture.h</key>
+		<data>
+		0zBBYvZ8emKPtZ5wbwXMkjCAXjA=
+		</data>
+		<key>Headers/UIView+Size.h</key>
+		<data>
+		/KIyj7x7bvr7m2KvQv07d2OEpP4=
+		</data>
+		<key>Headers/UIView+WhenTappedBlocks.h</key>
+		<data>
+		S3xUFDEzySUZdI2bCD/+RNxoYdc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -113,11 +141,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oBRBW8m/nUQV7tpGs9fvBGsGW18=
+			N5maNVRZSr5XPHpUYaa9wtCGjIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mcCybTNed1lgoxXuoyLonnFbWTiCSNS87hM7iYTnl48=
+			YgtYc5sNl9FyqMMR5ttgeZxz5W/m2sa8myFzCWMNpMA=
+			</data>
+		</dict>
+		<key>Headers/NSString+Extend.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AFcnIPnfUwd1MRqsf+yzbjlrTGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			btzsK7pMx4kfuaBWVlOVWG6UGGLy+G+Q05rA+wpK7m8=
+			</data>
+		</dict>
+		<key>Headers/UIColor+Extend.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bbxmbW24iKVmY+rnEiD9VjmErpU=
+			</data>
+			<key>hash2</key>
+			<data>
+			itOXZQjkTNVqIOv3ePjN20nYkdG++buIqXGWlD0z828=
+			</data>
+		</dict>
+		<key>Headers/UIImage+Extend.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ft5gdcrJ/jCuWTpI2kaOdF5KFFo=
+			</data>
+			<key>hash2</key>
+			<data>
+			SzTB1+h++nHVzP5zIHPsC/B/XgT65Pm0BG0nP1iA2JE=
+			</data>
+		</dict>
+		<key>Headers/UIImage+animatedGIF.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RaJedlknpUScmckVxETTMkUbI+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			dxJuYGJSYpe7NSzYjqFndTfa+xLZjK5EGuQ+SmcP4wk=
+			</data>
+		</dict>
+		<key>Headers/UIView+Gesture.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0zBBYvZ8emKPtZ5wbwXMkjCAXjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jtiCAkgdYOse4eQLWcV2Pw9IvrvfxZn/HKF1m510BZ4=
+			</data>
+		</dict>
+		<key>Headers/UIView+Size.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/KIyj7x7bvr7m2KvQv07d2OEpP4=
+			</data>
+			<key>hash2</key>
+			<data>
+			adbtXXjA62N9STSPW1/adZcQXJe5YtcZD3xJfaFknH4=
+			</data>
+		</dict>
+		<key>Headers/UIView+WhenTappedBlocks.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3xUFDEzySUZdI2bCD/+RNxoYdc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JQchm4fqQV7AqeaG6wHYnIQCmtIheCm+jFtNDB7DbSk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 #import <FenngKit/FenngKit.h>
 
+#import "FSTabBarBaseViewController.h"
+#import "FSNavigationBaseViewController.h"
+#import "HomeViewController.h"
+#import "DisplayViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -19,7 +24,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    FSTabBarViewController * tabBar = [[FSTabBarViewController alloc] init];
+    FSTabBarBaseViewController * tabBar = [[FSTabBarBaseViewController alloc] init];
+    
+    HomeViewController * homeVC = [[HomeViewController alloc] init];
+    FSNavigationBaseViewController * homeNav = [[FSNavigationBaseViewController alloc] initWithRootViewController:homeVC];
+    [tabBar addChildViewController:homeNav];
+    
+    DisplayViewController * displayVC = [[DisplayViewController alloc] init];
+    FSNavigationBaseViewController * displayNav = [[FSNavigationBaseViewController alloc] initWithRootViewController:displayVC];
+    [tabBar addChildViewController:displayNav];
     
     self.window.rootViewController = tabBar;
     
