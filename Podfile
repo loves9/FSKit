@@ -6,7 +6,8 @@ project 'FenngClient.xcodeproj'
 use_frameworks!
 
 def common
-    pod 'AFNetworking', '3.1.0'
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'WeexSDK', '~> 0.17.0'
     
 end
 

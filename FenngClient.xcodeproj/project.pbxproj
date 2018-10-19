@@ -10,7 +10,6 @@
 		13542742DC7896EB11E1CFA7 /* Pods_FenngClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DCC8792D448AFEC5144011 /* Pods_FenngClient.framework */; };
 		5E4B2CAA21524E03003B6118 /* FenngKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4B2CA921524E02003B6118 /* FenngKit.framework */; };
 		5E917D7A2151E2EB00D8719C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D792151E2EB00D8719C /* AppDelegate.m */; };
-		5E917D7D2151E2EB00D8719C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D7C2151E2EB00D8719C /* ViewController.m */; };
 		5E917D802151E2EB00D8719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D7E2151E2EB00D8719C /* Main.storyboard */; };
 		5E917D822151E2ED00D8719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D812151E2ED00D8719C /* Assets.xcassets */; };
 		5E917D852151E2ED00D8719C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D832151E2ED00D8719C /* LaunchScreen.storyboard */; };
@@ -52,8 +51,6 @@
 		5E917D752151E2EB00D8719C /* FenngClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenngClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E917D782151E2EB00D8719C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E917D792151E2EB00D8719C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E917D7B2151E2EB00D8719C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5E917D7C2151E2EB00D8719C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E917D7F2151E2EB00D8719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E917D812151E2ED00D8719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E917D842151E2ED00D8719C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -144,8 +141,6 @@
 				5E4B2CB521533D57003B6118 /* Classes */,
 				5E917D782151E2EB00D8719C /* AppDelegate.h */,
 				5E917D792151E2EB00D8719C /* AppDelegate.m */,
-				5E917D7B2151E2EB00D8719C /* ViewController.h */,
-				5E917D7C2151E2EB00D8719C /* ViewController.m */,
 				5E917D7E2151E2EB00D8719C /* Main.storyboard */,
 				5E917D812151E2ED00D8719C /* Assets.xcassets */,
 				5E917D832151E2ED00D8719C /* LaunchScreen.storyboard */,
@@ -334,10 +329,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E917D7D2151E2EB00D8719C /* ViewController.m in Sources */,
 				5E917D882151E2ED00D8719C /* main.m in Sources */,
 				5E9D10F121703F92001613CC /* FSTabBarBaseViewController.m in Sources */,
 				5E9D10F421704439001613CC /* FSNavigationBaseViewController.m in Sources */,
