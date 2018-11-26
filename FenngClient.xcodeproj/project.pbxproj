@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		13542742DC7896EB11E1CFA7 /* Pods_FenngClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DCC8792D448AFEC5144011 /* Pods_FenngClient.framework */; };
 		5E4B2CAA21524E03003B6118 /* FenngKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4B2CA921524E02003B6118 /* FenngKit.framework */; };
+		5E4B423021AB98D800FB29A5 /* FSWeexEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B422F21AB98D800FB29A5 /* FSWeexEngine.m */; };
+		5E4B423321AB9BAA00FB29A5 /* FSWXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B423221AB9BAA00FB29A5 /* FSWXViewController.m */; };
+		5E4B423721ABE6D200FB29A5 /* landing.weex.js in Resources */ = {isa = PBXBuildFile; fileRef = 5E4B423621ABE6D200FB29A5 /* landing.weex.js */; };
 		5E917D7A2151E2EB00D8719C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E917D792151E2EB00D8719C /* AppDelegate.m */; };
 		5E917D802151E2EB00D8719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D7E2151E2EB00D8719C /* Main.storyboard */; };
 		5E917D822151E2ED00D8719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917D812151E2ED00D8719C /* Assets.xcassets */; };
@@ -48,6 +51,11 @@
 /* Begin PBXFileReference section */
 		1D6BC4414FDE1739E92E8902 /* Pods-FenngClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenngClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FenngClient/Pods-FenngClient.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4B2CA921524E02003B6118 /* FenngKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FenngKit.framework; path = FenngKit/FenngKit.framework; sourceTree = "<group>"; };
+		5E4B422E21AB98D800FB29A5 /* FSWeexEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSWeexEngine.h; sourceTree = "<group>"; };
+		5E4B422F21AB98D800FB29A5 /* FSWeexEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSWeexEngine.m; sourceTree = "<group>"; };
+		5E4B423121AB9BAA00FB29A5 /* FSWXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSWXViewController.h; sourceTree = "<group>"; };
+		5E4B423221AB9BAA00FB29A5 /* FSWXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSWXViewController.m; sourceTree = "<group>"; };
+		5E4B423621ABE6D200FB29A5 /* landing.weex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = landing.weex.js; sourceTree = "<group>"; };
 		5E917D752151E2EB00D8719C /* FenngClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenngClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E917D782151E2EB00D8719C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E917D792151E2EB00D8719C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 		5E4B2CB521533D57003B6118 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5E4B423421ABE65B00FB29A5 /* Resource */,
 				5E9D10FB2170479F001613CC /* Main */,
 				5E4B2CB921534CE5003B6118 /* Base */,
 			);
@@ -111,8 +120,28 @@
 				5E9D10F321704439001613CC /* FSNavigationBaseViewController.m */,
 				5E9D10F821704796001613CC /* FSBaseViewController.h */,
 				5E9D10F921704796001613CC /* FSBaseViewController.m */,
+				5E4B422E21AB98D800FB29A5 /* FSWeexEngine.h */,
+				5E4B422F21AB98D800FB29A5 /* FSWeexEngine.m */,
+				5E4B423121AB9BAA00FB29A5 /* FSWXViewController.h */,
+				5E4B423221AB9BAA00FB29A5 /* FSWXViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		5E4B423421ABE65B00FB29A5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5E4B423521ABE68000FB29A5 /* bundlejs */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5E4B423521ABE68000FB29A5 /* bundlejs */ = {
+			isa = PBXGroup;
+			children = (
+				5E4B423621ABE6D200FB29A5 /* landing.weex.js */,
+			);
+			path = bundlejs;
 			sourceTree = "<group>";
 		};
 		5E917D6C2151E2EB00D8719C = {
@@ -289,6 +318,7 @@
 			files = (
 				5E917D852151E2ED00D8719C /* LaunchScreen.storyboard in Resources */,
 				5E917D822151E2ED00D8719C /* Assets.xcassets in Resources */,
+				5E4B423721ABE6D200FB29A5 /* landing.weex.js in Resources */,
 				5E917D802151E2EB00D8719C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E917D882151E2ED00D8719C /* main.m in Sources */,
+				5E4B423021AB98D800FB29A5 /* FSWeexEngine.m in Sources */,
+				5E4B423321AB9BAA00FB29A5 /* FSWXViewController.m in Sources */,
 				5E9D10F121703F92001613CC /* FSTabBarBaseViewController.m in Sources */,
 				5E9D10F421704439001613CC /* FSNavigationBaseViewController.m in Sources */,
 				5E9D10FA21704796001613CC /* FSBaseViewController.m in Sources */,

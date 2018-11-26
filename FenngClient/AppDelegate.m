@@ -14,6 +14,8 @@
 #import "HomeViewController.h"
 #import "DisplayViewController.h"
 
+#import "FSWeexEngine.h"
+
 @interface AppDelegate ()
 
 @end
@@ -27,14 +29,21 @@
     FSTabBarBaseViewController * tabBar = [[FSTabBarBaseViewController alloc] init];
     
     HomeViewController * homeVC = [[HomeViewController alloc] init];
+    
     FSNavigationBaseViewController * homeNav = [[FSNavigationBaseViewController alloc] initWithRootViewController:homeVC];
+    
     [tabBar addChildViewController:homeNav];
+    
+    
     
     DisplayViewController * displayVC = [[DisplayViewController alloc] init];
     FSNavigationBaseViewController * displayNav = [[FSNavigationBaseViewController alloc] initWithRootViewController:displayVC];
     [tabBar addChildViewController:displayNav];
     
     self.window.rootViewController = tabBar;
+    
+    
+    [FSWeexEngine startWeexEngine];
     
     return YES;
 }
